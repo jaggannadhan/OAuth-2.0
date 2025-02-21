@@ -11,6 +11,7 @@ OAuth is an open standard for access delegation, commonly used to grant websites
 4. The backend exchanges the authorization code for an access token and retrieves the user's profile information.
 
 ## End-to-End Flow Diagram
+(I'm using google OAuth as an example. Other providers pretty much work the same way!)
 ![googleOAuth2_0](https://github.com/user-attachments/assets/4aa05729-5ecb-49f7-84a4-0a0838ad6e51)
 
 ## How to get the OAuth `CLIENT_ID` and `CLIENT_SECRET`?
