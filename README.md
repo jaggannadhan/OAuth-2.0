@@ -10,5 +10,4 @@ OAuth is an open standard for access delegation, commonly used to grant websites
 3. After granting permission, Google redirects the user back to the application with an authorization code.
 4. The backend exchanges the authorization code for an access token and retrieves the user's profile information.
 
-## End-to-End Flow Diagrams
-
+## End-to-End Flow Diagram
