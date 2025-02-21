@@ -64,17 +64,13 @@ OAuth is an open standard for access delegation, commonly used to grant websites
     * Your Consumer Key (Client ID) and Consumer Secret (Client Secret) will be displayed. <br/>
 
 
-## How to run this project?
-Well it't pretty basic
+## How to run this project? - Well it't pretty basic!
 1. Clone the project
 2. From the project's root 
     ```
         make setup
-        // set-up the .env file
-        make run-local
     ```
-
-### .env file format
+3. Set-up the .env file
 ```
     GOOGLE_CLIENT_ID="<your_google_client_id>"
     GOOGLE_CLIENT_SECRET="<your_google_client_secret>"
@@ -87,3 +83,7 @@ Well it't pretty basic
     REDIRECT_URI="http://localhost:8000/auth/callback"
     SECRET_KEY="<i-ain't-giving-mine-so-add-your's>"
 ```
+4. Run the project locally
+    ```
+        make run-local
+    ```
