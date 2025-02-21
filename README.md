@@ -64,3 +64,26 @@ OAuth is an open standard for access delegation, commonly used to grant websites
     * Your Consumer Key (Client ID) and Consumer Secret (Client Secret) will be displayed. <br/>
 
 
+## How to run this project?
+Well it't pretty basic
+1. Clone the project
+2. From the project's root 
+    ```
+        make setup
+        // set-up the .env file
+        make run-local
+    ```
+
+### .env file format
+```
+    GOOGLE_CLIENT_ID="<your_google_client_id>"
+    GOOGLE_CLIENT_SECRET="<your_google_client_secret>"
+    FACEBOOK_CLIENT_ID="<your_facebook_client_id>"
+    FACEBOOK_CLIENT_SECRET="<your_facebook_client_secret>"
+    GITHUB_CLIENT_ID="<your_github_client_id>"
+    GITHUB_CLIENT_SECRET="<your_github_client_secret>"
+    SALESFORCE_CLIENT_ID="<your_salesforce_client_id>"
+    SALESFORCE_CLIENT_SECRET="<your_salesforce_client_secret>"
+    REDIRECT_URI="http://localhost:8000/auth/callback"
+    SECRET_KEY="<i-ain't-giving-mine-so-add-your's>"
+```
