@@ -15,22 +15,14 @@ OAuth is an open standard for access delegation, commonly used to grant websites
 
 ## How to get the OAuth `CLIENT_ID` and `CLIENT_SECRET`?
 
-### Getting Google OAuth Client ID and Secret
+### 1. Getting Google OAuth Client ID and Secret
 1.  **Google Cloud Console:**
     * Go to the [Google Cloud Console](https://console.cloud.google.com/).
     * Create or select a project.
-
-2.  **Credentials:**
     * Navigate to **"APIs & Services"** -> **"Credentials"**.
-
-3.  **Create Credentials:**
     * Click **"Create Credentials"** -> **"OAuth client ID"**.
-
-4.  **Application Type:**
     * Select the appropriate application type (e.g., Web application, Desktop app).
     * Configure authorized redirect URIs (for web apps).
-
-5.  **Client ID and Secret:**
     * The Client ID and Client Secret will be displayed.
     * Download the JSON file for later use.
 
